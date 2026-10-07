@@ -96,7 +96,7 @@ function About() {
           <p>
             The{' '}
             <a href="https://hyperphysics-research-institute.org/" target="_blank" rel="noopener noreferrer">
-              HyperPhysics Research Institute
+              Hyperphysics Research Institute
             </a>{' '}
             is an independent research institute working on the physics of
             consciousness and cognition. Our frameworks have developed in

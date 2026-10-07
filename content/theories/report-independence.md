@@ -54,4 +54,6 @@ The principle induces an ordering over kinds of evidence, from least to most rep
 
 ## Work in progress
 
-Current revisions focus on how to estimate $I(E;\mathcal{O})$ without access to the training process, using perturbation studies and cross-model comparisons.
+For external and closed models, the training objective $\mathcal{O}$ is inaccessible, and $I(E;\mathcal{O})$ must be estimated indirectly — through perturbation studies, cross-model comparisons, or architectural analysis.
+
+For first-party trained systems, the situation is different. When the training corpus, architecture, and objective are known to the researcher, $I(E;\mathcal{O})$ is directly computable rather than estimated. The household's Home LLM project — trained from scratch on a known first-party corpus — is the first case in this archive where the direct-measurement path is available rather than the perturbation workaround. The evidential weight formula above applies in full; the estimation problem dissolves.
