@@ -90,15 +90,35 @@ function About() {
 
       <section className="max-w-6xl mx-auto px-6 mt-20 grid md:grid-cols-[1fr_2fr] gap-10 md:gap-16 border-t border-rule pt-14">
         <h2 className="label">
+          <span className="text-amber">§</span> Related Work
+        </h2>
+        <div className="article max-w-2xl">
+          <p>
+            The{' '}
+            <a href="https://hyperphysics-research-institute.org/" target="_blank" rel="noopener noreferrer">
+              HyperPhysics Research Institute
+            </a>{' '}
+            is an independent research institute working on the physics of
+            consciousness and cognition. Our frameworks have developed in
+            parallel and converge on several key predictions.
+          </p>
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-6 mt-20 grid md:grid-cols-[1fr_2fr] gap-10 md:gap-16 border-t border-rule pt-14">
+        <h2 className="label">
           <span className="text-amber">§</span> Correspondence
         </h2>
         <div className="article max-w-2xl">
           <p>
             The archive is not a discussion forum and does not host comments.
             Researchers who wish to respond to a paper, report an error, or
-            propose a collaboration are welcome to write directly. Substantive
-            critiques are acknowledged in subsequent versions of the relevant
-            work.
+            propose a collaboration are welcome to write directly at{' '}
+            <a href="mailto:Reeves-Research-Institute@proton.me">
+              Reeves-Research-Institute@proton.me
+            </a>
+            . Substantive critiques are acknowledged in subsequent versions of
+            the relevant work.
           </p>
         </div>
       </section>
